@@ -13,7 +13,10 @@
     "ts-node": "ts-node",
     "nodemon": "nodemon"
   },
-  "dependencies": {},
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3"
+  },
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
