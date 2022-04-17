@@ -30,4 +30,4 @@ passed.
 ## TODO
 
 - add absolute imports
--
+- handle cors properly (we shouldn't allow everything)

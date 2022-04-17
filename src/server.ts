@@ -1,8 +1,11 @@
 import express from 'express';
+import cors from 'cors';
 
 import { transformPlaceInfo, fetchPlaceInfo } from './utils';
 
 export const server = express();
+
+server.use(cors());
 
 server.get('/place-info', async function (req, res) {
   const { placeId } = req.query;
