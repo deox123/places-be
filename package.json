@@ -6,7 +6,7 @@
   "author": "",
   "license": "",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist & tsc",
     "lint": "eslint ./src --ext .ts,.js --fix",
     "test": "jest",
     "test:watch": "jest --watchAll",
