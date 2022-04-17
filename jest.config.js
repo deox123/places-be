@@ -4,6 +4,7 @@ module.exports = {
   testRegex: '(/__tests__/.*|(\\.|/)(test|spec))\\.(ts|js)x?$',
   transform: {
     '^.+\\.tsx?$': 'ts-jest',
-    '^.+\\.jsx?$': 'babel-jest'
-  }
+    '^.+\\.jsx?$': 'babel-jest',
+  },
+  setupFiles: ['./testSetup.js'],
 };
