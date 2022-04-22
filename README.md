@@ -1,4 +1,4 @@
-# Todo Search Tool
+# Place info
 
 This repo is used for fetching places info. It exposes `/place-info` API which accepts placeId as a query parameter, fetches the data and returns it to the client.
 Project was created by the following [starter kit](https://github.com/postlight/nodejs-typescript-kit)
